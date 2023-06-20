@@ -1,0 +1,23 @@
+@charset "UTF-8";
+#freshers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+#freshers td, #freshers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#freshers tr:nth-child(even){background-color: #f2f2f2;}
+
+#freshers tr:hover {background-color: #ddd;}
+
+#freshers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #fffff2;
+  color: black;
+}
